@@ -14,7 +14,7 @@ export default function Footer() {
               <h3 className="text-white text-lg font-bold">9Router</h3>
             </div>
             <p className="text-gray-500 text-sm max-w-xs mb-6">
-              The unified endpoint for AI generation. Connect, route, and manage your AI providers with ease.
+              面向 AI 生成的统一端点，轻松连接、路由并管理你的 AI 服务商。
             </p>
             <div className="flex gap-4">
               <a className="text-gray-400 hover:text-white transition-colors" href="https://github.com/decolua/9router" target="_blank" rel="noopener noreferrer">
@@ -25,30 +25,30 @@ export default function Footer() {
           
           {/* Product */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-bold text-white">Product</h4>
-            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="#features">Features</a>
+            <h4 className="font-bold text-white">产品</h4>
+            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="#features">功能特性</a>
             <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="/dashboard">Dashboard</a>
             <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router" target="_blank" rel="noopener noreferrer">Changelog</a>
           </div>
           
           {/* Resources */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-bold text-white">Resources</h4>
-            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router#readme" target="_blank" rel="noopener noreferrer">Documentation</a>
+            <h4 className="font-bold text-white">资源</h4>
+            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router#readme" target="_blank" rel="noopener noreferrer">文档</a>
             <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://www.npmjs.com/package/9router" target="_blank" rel="noopener noreferrer">NPM</a>
           </div>
           
           {/* Legal */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-bold text-white">Legal</h4>
-            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>
+            <h4 className="font-bold text-white">法律</h4>
+            <a className="text-gray-400 hover:text-[#f97815] text-sm transition-colors" href="https://github.com/decolua/9router/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT 许可证</a>
           </div>
         </div>
         
         {/* Bottom */}
         <div className="border-t border-[#3a2f27] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-sm">© 2025 9Router. All rights reserved.</p>
+          <p className="text-gray-600 text-sm">© 2025 9Router。保留所有权利。</p>
           <div className="flex gap-6">
             <a className="text-gray-600 hover:text-white text-sm transition-colors" href="https://github.com/decolua/9router" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a className="text-gray-600 hover:text-white text-sm transition-colors" href="https://www.npmjs.com/package/9router" target="_blank" rel="noopener noreferrer">NPM</a>

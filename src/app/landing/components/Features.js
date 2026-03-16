@@ -3,8 +3,8 @@
 const FEATURES = [
   { 
     icon: "link", 
-    title: "Unified Endpoint", 
-    desc: "Access all providers via a single standard API URL.", 
+    title: "统一端点", 
+    desc: "通过单一标准 API 地址接入所有服务商。", 
     colors: {
       border: "hover:border-blue-500/50",
       bg: "hover:bg-blue-500/5",
@@ -15,8 +15,8 @@ const FEATURES = [
   },
   { 
     icon: "bolt", 
-    title: "Easy Setup", 
-    desc: "Get up and running in minutes with npx command.", 
+    title: "快速部署", 
+    desc: "一条 npx 命令，几分钟即可启动。", 
     colors: {
       border: "hover:border-orange-500/50",
       bg: "hover:bg-orange-500/5",
@@ -27,8 +27,8 @@ const FEATURES = [
   },
   { 
     icon: "shield_with_heart", 
-    title: "Model Fallback", 
-    desc: "Automatically switch providers on failure or high latency.", 
+    title: "模型回退", 
+    desc: "失败或高延迟时自动切换服务商。", 
     colors: {
       border: "hover:border-rose-500/50",
       bg: "hover:bg-rose-500/5",
@@ -39,8 +39,8 @@ const FEATURES = [
   },
   { 
     icon: "monitoring", 
-    title: "Usage Tracking", 
-    desc: "Detailed analytics and cost monitoring across all models.", 
+    title: "用量追踪", 
+    desc: "提供跨模型的详细分析与成本监控。", 
     colors: {
       border: "hover:border-purple-500/50",
       bg: "hover:bg-purple-500/5",
@@ -51,8 +51,8 @@ const FEATURES = [
   },
   { 
     icon: "key", 
-    title: "OAuth & API Keys", 
-    desc: "Securely manage credentials in one vault.", 
+    title: "OAuth 与 API Key", 
+    desc: "在统一凭据库中安全管理密钥。", 
     colors: {
       border: "hover:border-amber-500/50",
       bg: "hover:bg-amber-500/5",
@@ -63,8 +63,8 @@ const FEATURES = [
   },
   { 
     icon: "cloud_sync", 
-    title: "Cloud Sync", 
-    desc: "Sync your configurations across devices instantly.", 
+    title: "云端同步", 
+    desc: "配置可在多设备间即时同步。", 
     colors: {
       border: "hover:border-sky-500/50",
       bg: "hover:bg-sky-500/5",
@@ -75,8 +75,8 @@ const FEATURES = [
   },
   { 
     icon: "terminal", 
-    title: "CLI Support", 
-    desc: "Works with Claude Code, Codex, Cline, Cursor, and more.", 
+    title: "CLI 支持", 
+    desc: "兼容 Claude Code、Codex、Cline、Cursor 等工具。", 
     colors: {
       border: "hover:border-emerald-500/50",
       bg: "hover:bg-emerald-500/5",
@@ -87,8 +87,8 @@ const FEATURES = [
   },
   { 
     icon: "dashboard", 
-    title: "Dashboard", 
-    desc: "Visual dashboard for real-time traffic analysis.", 
+    title: "可视化面板", 
+    desc: "通过可视化面板实时分析流量。", 
     colors: {
       border: "hover:border-fuchsia-500/50",
       bg: "hover:bg-fuchsia-500/5",
@@ -104,9 +104,9 @@ export default function Features() {
     <section className="py-24 px-6" id="features">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Powerful Features</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">核心功能</h2>
           <p className="text-gray-400 max-w-xl text-lg">
-            Everything you need to manage your AI infrastructure in one place, built for scale.
+            你需要的 AI 基础设施管理能力，一站式提供并为规模化而设计。
           </p>
         </div>
         

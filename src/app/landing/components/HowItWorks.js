@@ -5,9 +5,9 @@ export default function HowItWorks() {
     <section className="py-24 border-y border-[#3a2f27] bg-[#23180f]/30" id="how-it-works">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">How 9Router Works</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">9Router 如何工作</h2>
           <p className="text-gray-400 max-w-xl text-lg">
-            Data flows seamlessly from your application through our intelligent routing layer to the best provider for the job.
+            数据从你的应用进入智能路由层，并无缝分发到最合适的服务商。
           </p>
         </div>
         
@@ -21,9 +21,9 @@ export default function HowItWorks() {
               <span className="material-symbols-outlined text-4xl text-gray-300">terminal</span>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">1. CLI &amp; SDKs</h3>
+              <h3 className="text-xl font-bold mb-2">1. CLI 与 SDK</h3>
               <p className="text-sm text-gray-400">
-                Your requests start from your favorite tools or our unified SDK. Just change the base URL.
+                请求可从常用工具或统一 SDK 发起，只需修改 base URL。
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function HowItWorks() {
             <div>
               <h3 className="text-xl font-bold mb-2 text-[#f97815]">2. 9Router Hub</h3>
               <p className="text-sm text-gray-400">
-                Our engine analyzes the prompt, checks provider health, and routes for lowest latency or cost.
+                引擎会分析提示词、检查服务状态，并按最低延迟或成本进行路由。
               </p>
             </div>
           </div>
@@ -52,9 +52,9 @@ export default function HowItWorks() {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">3. AI Providers</h3>
+              <h3 className="text-xl font-bold mb-2">3. AI 服务商</h3>
               <p className="text-sm text-gray-400">
-                The request is fulfilled by OpenAI, Anthropic, Gemini, or others instantly.
+                请求会被即时分发到 OpenAI、Anthropic、Gemini 等服务商。
               </p>
             </div>
           </div>
