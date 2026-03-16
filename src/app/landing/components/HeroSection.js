@@ -10,25 +10,25 @@ export default function HeroSection() {
         {/* Version badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-[#3a2f27] bg-[#23180f]/50 px-3 py-1 text-xs font-medium text-[#f97815]">
           <span className="flex h-2 w-2 rounded-full bg-[#f97815] animate-pulse"></span>
-          v1.0 is now live
+          v1.0 现已上线
         </div>
 
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-black leading-[1.1] tracking-tight">
-          One Endpoint for <br/>
-          <span className="text-[#f97815]">All AI Providers</span>
+          一个端点接入 <br/>
+          <span className="text-[#f97815]">所有 AI 服务商</span>
         </h1>
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">
-          AI endpoint proxy with web dashboard - A JavaScript port of CLIProxyAPI. Works seamlessly with Claude Code, OpenAI Codex, Cline, RooCode, and other CLI tools.
+          带可视化控制台的 AI 端点代理——CLIProxyAPI 的 JavaScript 版本。无缝支持 Claude Code、OpenAI Codex、Cline、RooCode 等 CLI 工具。
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4 w-full">
           <button className="h-12 px-8 rounded-lg bg-[#f97815] hover:bg-[#e0650a] text-[#181411] text-base font-bold transition-all shadow-[0_0_15px_rgba(249,120,21,0.4)] flex items-center gap-2">
             <span className="material-symbols-outlined">rocket_launch</span>
-            Get Started
+            立即开始
           </button>
           <a 
             href="https://github.com/decolua/9router" 
@@ -37,11 +37,10 @@ export default function HeroSection() {
             className="h-12 px-8 rounded-lg border border-[#3a2f27] bg-[#23180f] hover:bg-[#3a2f27] text-white text-base font-bold transition-all flex items-center gap-2"
           >
             <span className="material-symbols-outlined">code</span>
-            View on GitHub
+            在 GitHub 查看
           </a>
         </div>
       </div>
     </section>
   );
 }
-
